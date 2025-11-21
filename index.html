@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #000000; /* Black background */
+        }
+        .portfolio-card {
+            background-color: #1a1a1a; /* Dark gray card background */
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+            padding: 30px;
+            max-width: 400px;
+            text-align: center;
+            border: 2px solid #333333; /* Subtle dark border */
+        }
+        .portfolio-card h2 {
+            margin: 0 0 15px 0;
+            color: #ffffff; /* White text */
+            font-size: 24px;
+        }
+        .portfolio-card p {
+            color: #cccccc; /* Light gray text */
+            margin: 0 0 20px 0;
+            font-size: 16px;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-info a {
+            color: #00aaff; /* Light blue for links */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .skills {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .skills h3 {
+            margin: 0 0 10px 0;
+            color: #ffffff; /* White heading */
+            font-size: 18px;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li {
+            margin: 5px 0;
+            color: #cccccc; /* Light gray list items */
+        }
+        .linkedin-link, .github-link {
+            display: inline-block;
+            background-color: #0077b5;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+            margin: 5px;
+        }
+        .linkedin-link:hover {
+            background-color: #005582;
+        }
+        .github-link {
+            background-color: #333;
+        }
+        .github-link:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="portfolio-card">
+        <h2>Ekanksh Patil</h2>
+        <p>Software Developer | Passionate about coding and innovation.</p>
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> Email: <a href="mailto:patilekanksh487@gmail.com">patilekanksh487@gmail.com</a></p>
+        </div>
+        <div class="skills">
+            <h3><i class="fas fa-code"></i> Skills</h3>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React, Node.js</li>
+                <li>Python, Java</li>
+                <li>Git, Agile Development</li>
+            </ul>
+        </div>
+        <a href="https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=ekanksh-patil-087660353" class="linkedin-link" target="_blank"><i class="fab fa-linkedin"></i> Follow me on LinkedIn</a>
+        <a href="https://github.com/yourusername" class="github-link" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
+    </div>
+</body>
+</html>
